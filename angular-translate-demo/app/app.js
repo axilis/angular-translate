@@ -2,7 +2,9 @@ var app = angular.module('translateApp', ['ui.router', 'ui.bootstrap', 'pascalpr
 .config(function ($translateProvider) {
 	var translations = {
 		'TITLE': 'Welcome to the demo',
-		'DESCRIPTION': 'This is the angular-translate demo.'
+		'DESCRIPTION': 'This is the angular-translate demo.',
+		'ENTER_NAME': 'Enter your name',
+		'WELCOME_NAME': 'Welcome {{name}}',
 	};
 
 	$translateProvider
@@ -20,4 +22,6 @@ var app = angular.module('translateApp', ['ui.router', 'ui.bootstrap', 'pascalpr
 	//$translate('DESCRIPTION').then(function (description) {
 	//	$scope.description = description;
 	//});
+
+	$scope.name = "";
 });
