@@ -17,3 +17,22 @@ c:\users\hrvoje\documents\visual studio 2015\Projects\angular-translate-demo\ang
 c:\users\hrvoje\documents\visual studio 2015\Projects\angular-translate-demo\angular-translate-demo\obj\Debug\angular-translate-demo.csprojResolveAssemblyReference.cache
 c:\users\hrvoje\documents\visual studio 2015\Projects\angular-translate-demo\angular-translate-demo\obj\Debug\angular-translate-demo.dll
 c:\users\hrvoje\documents\visual studio 2015\Projects\angular-translate-demo\angular-translate-demo\obj\Debug\angular-translate-demo.pdb
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\csc.exe
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\System.Collections.Immutable.dll
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\System.Reflection.Metadata.dll
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\vbc.exe
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\VBCSCompiler.exe
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\roslyn\VBCSCompiler.exe.config
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\angular-translate-demo.dll.config
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\angular-translate-demo.dll
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\angular-translate-demo.pdb
+D:\ChCh\angular-translate-demo\angular-translate-demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ChCh\angular-translate-demo\angular-translate-demo\obj\Debug\angular-translate-demo.csprojResolveAssemblyReference.cache
+D:\ChCh\angular-translate-demo\angular-translate-demo\obj\Debug\angular-translate-demo.dll
+D:\ChCh\angular-translate-demo\angular-translate-demo\obj\Debug\angular-translate-demo.pdb
