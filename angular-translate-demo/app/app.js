@@ -1,14 +1,33 @@
 var app = angular.module('translateApp', ['ui.router', 'ui.bootstrap', 'pascalprecht.translate'])
 .config(function ($translateProvider) {
 	var translations = {
-		'TITLE': 'Welcome to the demo',
-		'DESCRIPTION': 'This is the angular-translate demo.',
-		'ENTER_NAME': 'Enter your name',
-		'WELCOME_NAME': 'Welcome {{name}}',
+		'en': {
+			'TITLE': 'Welcome to the demo',
+			'DESCRIPTION': 'This is the angular-translate demo.',
+			'ENTER_NAME': 'Enter your name',
+			'WELCOME_NAME': 'Welcome {{name}}',
+			'LANG': {
+				'EN': 'English',
+				'HR': 'Croatian',
+			}
+		},
+		'hr': {
+			'TITLE': 'Dobro došli na demo',
+			'DESCRIPTION': 'Ovo je angular-translate demo.',
+			'ENTER_NAME': 'Unesite svoje ime',
+			'WELCOME_NAME': 'Dobro došli {{name}}',
+			'LANG': {
+				'EN': 'Engleski',
+				'HR': 'Hrvatski',
+			}
+		}
 	};
 
+	for (lang in translations) {
+		$translateProvider
+			.translations(lang, translations[lang]);
+	}
 	$translateProvider
-		.translations('en', translations)
 		.preferredLanguage('en')
 		.fallbackLanguage('en');
 })
@@ -24,4 +43,8 @@ var app = angular.module('translateApp', ['ui.router', 'ui.bootstrap', 'pascalpr
 	//});
 
 	$scope.name = "";
+
+	$scope.changeLanguage = function (lang) {
+		$translate.use(lang);
+	};
 });

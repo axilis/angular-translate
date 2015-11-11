@@ -18,5 +18,8 @@
 	<p translate="DESCRIPTION"></p>
 	<input type="text" ng-model="name" placeholder="{{'ENTER_NAME' | translate}}" />
 	<p translate="WELCOME_NAME" translate-values="{name: name}"></p>
+
+	<button ng-click="changeLanguage('en')" translate="LANG.EN"></button>
+	<button ng-click="changeLanguage('hr')" translate="LANG.HR"></button>
 </body>
 </html>
