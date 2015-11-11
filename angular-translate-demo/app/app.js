@@ -14,10 +14,10 @@ var app = angular.module('translateApp', ['ui.router', 'ui.bootstrap', 'pascalpr
 
 })
 .controller('HomeController', function ($scope, $translate) {
-	$translate('TITLE').then(function (title) {
-		$scope.title = title;
-	});
-	$translate('DESCRIPTION').then(function (description) {
-		$scope.description = description;
-	});
+	//$translate('TITLE').then(function (title) {
+	//	$scope.title = title;
+	//});
+	//$translate('DESCRIPTION').then(function (description) {
+	//	$scope.description = description;
+	//});
 });
